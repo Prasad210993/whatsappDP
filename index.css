@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body{
+    margin: 15px;
+    padding: 15px;
+    height: 100vh;
+}
+
+.heading{
+    margin: 30px;
+}
+
+.heading h1{
+    margin-bottom: 12px;
+}
+
+.chooseImg{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+    width: 100%;
+    /* padding: 1%; */
+}
+
+.chooseImg button{
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: lightgreen;
+}
+
+.mainSec{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 25px;
+    margin: 4px 2px;
+    height: 300px;    
+    background-color: aliceblue;
+    border-radius: 9px;
+}
+
+.mainSec .result{
+    /* border: 2px solid green; */
+    width: 45%;
+}
+
+.mainSec .option{
+    /* border: 2px solid green; */
+    padding: 20px;
+    width: 45%;
+    margin: 4px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.mainSec .option .radio-grp{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.mainSec .option input{
+    padding: 10px;
+}
+
+.mainSec .option .btn{
+    /* display: none; */
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    /* padding: 10px; */
+}
+
+.mainSec .option .btn button{
+    /* display: none; */
+    padding: 10px;
+    width: auto;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    background-color: lightgreen;
+}
+
+.info{
+    margin: 30px;
+}
+
+.info h1{
+    margin: 15px 0;
+}
+
+.info ol li{
+    margin-bottom: 15px;
+}
